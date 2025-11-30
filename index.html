@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div id="container">
+    <div id="form">
+        <p>Name</p>
+        <input type="text" id="input-name" placeholder="Enter your name" />
+        <p>Email</p>
+        <input type="email" id ="input-email" placeholder="Enter your email" />
+        <p>Address</p>
+        <textarea id="input-address" rows="3" maxlength="400" cols="50" placeholder="Enter your Address"></textarea>
+        <p>Phone Number</p>
+        <input type="text" id="input-number" placeholder="Enter your Phone number" />
+        <p>Profile photo</p>
+        <input type="file" id="input-photo" placeholder="Upload your profile picture" accept="image/*"/>
+        <p>Objectives</p>
+        <textarea id="input-objectives" rows="3" cols="50" maxlength="400" placeholder="Enter your Objectives"></textarea>
+        <div id="edu-section">
+            <p>Education Qualification</p>
+            <input type="text" id="input-edu" placeholder="Enter your Education Qualification" />
+            <button id="add-edu" class="add">Add</button>
+            <ul id="input-edulist">
+
+            </ul>
+        </div>
+        
+        <div id="Skill-section">
+            <p>Skills</p>
+            <input type="text" id="input-skill" placeholder="Enter your skills" />
+            <button id="add-skills" class="add">Add</button>
+            <ul id="input-skillist">
+
+            </ul>
+        </div>
+        
+        <div id="langauge-section">
+            <p>Languages</p>
+            <input type="text" id="input-language" placeholder="Enter your skills" />
+            <button id="add-language" class="add">Add</button>
+            <ul id="input-languagelist">
+                
+            </ul>
+        </div>
+        <div id="certificate-section">
+            <p>Certificates</p>
+            <input type="text" id="input-certificate" placeholder="Enter your skills" />
+            <button id="add-certificate" class="add">Add</button>
+            <ul id="input-certificatelist">
+                
+            </ul>
+        </div>
+        <button id="input-print" class="add" style="margin:0 35%;">Download</button>
+    </div>
+    <div id="resume">
+    <div id="header">
+    <div id="header-content">
+        <p id="preview-name">Your will be here</p>
+        <p id="preview-email">Your email will be here</p>
+        <pre id="preview-address">Your Address will be here</pre>
+        <p id="preview-number">Your phone number will be here</p>
+    </div>
+    <div id="header-image">
+        <img id="preview-photo" alt="Your profile photo will be here" />
+    </div>
+        </div>
+        <h4>Objectives</h4>
+        <hr>
+        <p id="preview-objectives"> your objectives will be here</p>
+        <h4>Education Qualification</h4>
+        <hr>
+        <ul id="preview-edu">
+        </ul>
+        <h4>Skills</h4>
+        <hr>
+        <ul id="preview-skills">
+        </ul>
+        <h4>Languages</h4>
+        <hr>
+        <ul id="preview-language">
+        </ul>
+        <h4>Certificate</h4>
+        <hr>
+        <ul id="preview-certificate">
+        </ul> 
+    </div>
+</div>
+    <script src="./index.js"></script>
+    <footer align="center">Developed by Vasanth J</footer>
+</body>
+</html>
